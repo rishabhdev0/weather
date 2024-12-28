@@ -70,6 +70,7 @@ body {
 .search button i {
     font-size: 30px;
     color: rgb(23, 4, 4);
+     transition:font-size 0.3s ease;
 }
 
 .weather-box {
@@ -179,5 +180,11 @@ body {
 
     .not_found p {
         font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .search button i {
+        font-size: 20px; /* Adjust font size for smaller screens */
     }
 }
