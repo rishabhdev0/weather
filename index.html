@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Projection</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+   <div class="cards">
+    <div class="search">
+        <i class='bx bxs-map'></i>
+        <input type="text" placeholder="ENTER YOUR LOCATION" spellcheck="false">
+        <button class="button_search">
+            <i class='bx bx-search'></i>
+        </button>
+    </div>
+    <div class="weather-box">
+        <div class="weather">
+            <img src="images/sunny.png" alt="Weather">
+            <p class="temperature">--<span>°C</span></p>
+            <p class="description">Weather Info</p>
+        </div>
+    </div>
+    <div class="weather-detail">
+        <div class="humidity">
+            <i class='bx bx-water'></i>
+            <div class="text">
+                <span>--%</span>
+                <p>Humidity</p>
+            </div>
+        </div>
+        <div class="wind">
+            <i class='bx bx-wind'></i>
+            <div class="text">
+                <span>-- km/h</span>
+                <p>Wind Speed</p>
+            </div>
+        </div>
+    </div>
+     <div class="not_found"> 
+        <div class="box">
+          <img src="images/404.png">
+          <p>0ops!! Location Not Found</p>
+        </div>
+    </div>  
+   </div>
+   <script src="scripts1.js"></script>
+</body>
+</html>
